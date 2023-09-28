@@ -21,3 +21,5 @@ Experience the Veterinary Appointment Scheduler by visiting the live demo at the
 [**Live Demo**](http://3.91.208.114/)
 
 ![Estado del Flujo de Trabajo](https://github.com/gustavoDuarte96/citas-react/actions/workflows/node.js.yml/badge.svg)
+
+<img width="1680" alt="Captura de pantalla 2023-09-28 a la(s) 00 52 32" src="https://github.com/gustavoDuarte96/citas-react/assets/87426390/c8a6e456-4525-426f-88db-2dfdaaa74c57">
