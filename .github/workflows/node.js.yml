@@ -1,0 +1,24 @@
+name: Node.js CI with Yarn
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+
+    runs-on: self-hosted
+
+    strategy:
+      matrix:
+        node-version: [14.x, 16.x, 18.x]
+
+    steps:
+    - uses: actions/checkout@v2 # Cambiamos a la versión 2 de actions/checkout
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v2 # Cambiamos a la versión 2 de actions/setup-node
+      with:
+        node-version: ${{ matrix.node-version }}
+    - run: yarn install --frozen-lockfile # Utilizamos Yarn en lugar de npm
+    - run: yarn build --if-present # Utilizamos Yarn en lugar de npm
