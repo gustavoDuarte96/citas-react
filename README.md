@@ -19,3 +19,5 @@ Welcome to the Veterinary Appointment Scheduler! This web application is designe
 Experience the Veterinary Appointment Scheduler by visiting the live demo at the following URL:
 
 [**Live Demo**](https://gilded-lily-881456.netlify.app)
+
+![Estado del Flujo de Trabajo](https://github.com/gustavoDuarte96/citas-react/actions/workflows/node.js.yml/badge.svg)
